@@ -29,9 +29,6 @@ void Clock::illuminateTubes()
   // switch statements to default thereby setting all
   // cathode lines to the LOW state
   
-  // The code below is not very OO, a tube should know
-  // how to illuminate itself
-  
   m_NixieHourA->illuminate();
   m_NixieHourB->illuminate();
   m_NixieMinuteA->illuminate();
