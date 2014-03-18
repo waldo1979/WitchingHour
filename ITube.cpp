@@ -1,3 +1,8 @@
+/*
+Base class for Nixie and Neon Tubes
+encapsulates shift register logic
+*/
+
 #include "ITube.h"
 
 void ITube::setPinModes()
@@ -73,7 +78,9 @@ void ITube::illuminateTube(int anodePin, int num1, int num2)
   digitalWrite(sN7414N_1_PINA, a);
   
   digitalWrite(anodePin, 1);
+   delay(1);
   digitalWrite(anodePin, 0);
+
 }
 
 

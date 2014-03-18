@@ -1,3 +1,7 @@
+/*
+Base class for Nixie and Neon Tubes
+encapsulates shift register logic
+*/
 #include <Arduino.h>
 
 #ifndef ITUBE_H
